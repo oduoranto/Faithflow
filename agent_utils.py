@@ -9,16 +9,10 @@ import requests
 # --------------------------
 # Load environment variables
 # --------------------------
-load_dotenv()
+#load_dotenv()
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-if not GROQ_API_KEY:
-    raise EnvironmentError("❌ Missing GROQ_API_KEY in environment variables.")
-
-YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
-if not YOUTUBE_API_KEY:
-    raise EnvironmentError("❌ Missing YOUTUBE_API_KEY in environment variables.")
-
+GROQ_API_KEY = "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"  # Replace with actual key
+YOUTUBE_API_KEY = "AIzaSyDiL4OKNUfZPEw3P6QyLEyZBilhb76aar8"  # Replace with actual ke
 # --------------------------
 # Logging configuration
 # --------------------------
